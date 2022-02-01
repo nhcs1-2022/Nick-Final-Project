@@ -8,3 +8,8 @@ jump = keyboard_check(vk_space)
 
 xDirection = right - left;
 
+xVector = xSpeed * xDirection;
+yVector = yVector + grv;
+
+x = x + xVector;
+y = y + yVector;
