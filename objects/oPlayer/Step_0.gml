@@ -7,3 +7,5 @@ jump = keyboard_check(vk_space)
 
 
 xDirection = right - left;
+
+xVector = 30
