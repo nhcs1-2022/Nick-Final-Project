@@ -1,5 +1,12 @@
-/// @description Insert description here
+/// @description Variables
 // You can write your code in this editor
+
+//global (purple) variables are global.whatever
+global.coins = 0
+global.points = 0
+
+hp = 5;
+iframes = false;
 
 //xSpeed is the player's pixels moved per frame
 xSpeed = 4;
@@ -10,6 +17,8 @@ xDirection = 0;
 xVector = xSpeed * xDirection;
 
 //gravity
-grv = .3;
+grv = .4;
+jumpforce = -10;
 
 yVector = 0;
+
