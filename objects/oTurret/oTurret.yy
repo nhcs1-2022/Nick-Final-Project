@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "sTurret",
+    "path": "sprites/sTurret/sTurret.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemy",
+  "name": "oTurret",
   "tags": [],
   "resourceType": "GMObject",
 }

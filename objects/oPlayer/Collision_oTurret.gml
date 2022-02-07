@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if (y<= other.y)
 	{
 		enemyhurt()
@@ -10,5 +11,4 @@ if (y<= other.y)
 	{
 		//move so enemy appears solid
 	x = x - xVector
-	playerhurt()
 	}

@@ -2,12 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function playerhurt()
 {
-	if (!iframes)
+	if (!oPlayer.iframes)
 	{
 		iframes = true;
+		alarm_set(0, 2*room_speed)
+		oPlayer.hp--;
 		
-		hp--;
-		if(hp<1)
+		
+		
+		if(oPlayer.hp<1)
 		{
 			playerdeath()	
 		}
