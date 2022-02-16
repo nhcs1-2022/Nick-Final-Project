@@ -9,9 +9,16 @@ xVector = xDirection
 
 if place_meeting(x + xVector, y, oWall)
 	{
-		turnTimer = 2
 		xDirection = -xDirection
 	}
+	
+	
+if place_meeting(x + xVector, y, oSpike)
+	{
+		xDirection = -xDirection
+		 
+	}	
+	
 	
 x = x + xVector
 	
@@ -26,6 +33,7 @@ if place_meeting(x, y + yVector, oWall)
 		
 		}
 		yVector = 0; 
+		
 	}
 
 

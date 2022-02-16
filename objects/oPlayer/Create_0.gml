@@ -22,3 +22,8 @@ jumpforce = -10;
 
 yVector = 0;
 
+marker1 = 0
+marker2 = 0
+marker3 = 0
+marker4 = 0
+marker5 = 0
