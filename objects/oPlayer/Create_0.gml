@@ -27,3 +27,5 @@ marker2 = 0
 marker3 = 0
 marker4 = 0
 marker5 = 0
+
+wall1 = 0

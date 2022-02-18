@@ -40,6 +40,30 @@ if place_meeting(x, y + yVector, oWall)
 	}
 
 
+
+
+	
+if place_meeting(x, y + yVector, Object19)
+	{
+		// If the next pixel is empty, move there. ! means "not"
+		while (!place_meeting(x, y + sign(yVector), Object19))
+		{
+			//move one pixel
+			//if yVector is positive, then sign(yVector) = 1. if negative, then = -1
+			y = y + sign(yVector)
+		
+		}
+		yVector = 0; 
+	}
+
+
+if (place_meeting(x, y + 1, Object19) and (jump))
+{
+	yVector = jumpforce	
+}
+
+
+
 x = x + xVector;
 y = y + yVector;
 

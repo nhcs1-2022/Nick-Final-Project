@@ -4,7 +4,7 @@
 if (y<= other.y)
 	{
 		enemyhurt()
-		yVector = 0.5*jumpforce;
+		yVector = jumpforce;
 	}	
 	else
 	{
