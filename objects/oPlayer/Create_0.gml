@@ -1,6 +1,16 @@
 /// @description Variables
 // You can write your code in this editor
 
+enum state
+{
+	idle,
+	walking,
+	jumping,
+	shooting,
+}
+state = state.walking;
+
+
 //global (purple) variables are global.whatever
 global.coins = 0
 global.points = 0
