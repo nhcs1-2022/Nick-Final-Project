@@ -24,6 +24,9 @@ if place_meeting(x + xVector, y, oWall)
 
 function checkcolisionsY(){
 
+
+
+
 	yVector = yVector + grv;
 if place_meeting(x, y + yVector, oWall)
 	{

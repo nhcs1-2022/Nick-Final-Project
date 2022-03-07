@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPlayerwalking",
+    "path": "sprites/sPlayerwalking/sPlayerwalking.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPlayerwalking",
+    "path": "sprites/sPlayerwalking/sPlayerwalking.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

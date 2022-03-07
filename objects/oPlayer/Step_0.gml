@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (state == state.walking)
-{playerstatewalking()}
+script_execute(state_array[state])
 
-else if (state == state.jumping)
-{playerstatejumping()}
+sprite_index = sprite_array[state]
 
 
 if(y>= room_height)

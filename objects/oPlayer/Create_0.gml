@@ -1,16 +1,9 @@
 /// @description Variables
 // You can write your code in this editor
 
-enum state
-{
-	idle,
-	walking,
-	jumping,
-	shooting,
-}
-state = state.walking;
 
 
+canJump = true;
 //global (purple) variables are global.whatever
 global.coins = 0
 global.points = 0
@@ -27,7 +20,7 @@ xDirection = 0;
 xVector = xSpeed * xDirection;
 
 //gravity
-grv = .4;
+grv = .2;
 jumpforce = -10;
 
 yVector = 0;
@@ -39,3 +32,18 @@ marker4 = 0
 marker5 = 0
 
 wall1 = 0
+
+enum states
+{
+	walking,
+	jumping,
+}
+
+state_array[states.walking] = playerstatewalking;
+state_array[states.jumping] = playerstatejumping;
+
+sprite_array[states.walking] = sPlayerwalking;
+sprite_array[states.jumping] = sPlayerjumping;
+
+
+state = states.walking;
