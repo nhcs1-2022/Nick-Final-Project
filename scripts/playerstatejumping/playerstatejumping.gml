@@ -18,6 +18,8 @@ function playerstatejumping(){
 
 	move();
 	
+	
+	//Exiting the state
 	if (place_meeting(x, y + 1, oWall))
 	{
 		canJump = true
@@ -39,4 +41,11 @@ function playerstatejumping(){
 		
 	}
 		
+		
+	if (place_meeting(x, y, Object20))
+	{
+		canJump = true
+		state = states.button
+		
+	}
 }

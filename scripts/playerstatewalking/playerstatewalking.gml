@@ -3,24 +3,28 @@
 function playerstatewalking()
 {
 
-		move();
+	move();
 		
-		//condition for exiting state
-		if (place_meeting(x, y + 1, oWall) and jump)
-		{
-			state = states.jumping
-		}
+	//condition for exiting state
+	if (place_meeting(x, y + 1, oWall) and jump)
+	{
+		state = states.jumping
+	}
 		
-		if (place_meeting(x, y + 1, oJumper) and jump)
-		{
-			state = states.jumping
-		}
+	if (place_meeting(x, y + 1, oJumper) and jump)
+	{
+		state = states.jumping
+	}
 		
-		if (place_meeting(x, y + 1, Object19) and jump)
-		{
-			state = states.jumping
-		}
+	if (place_meeting(x, y + 1, Object19) and jump)
+	{
+		state = states.jumping
+	}
 
 		
+	if (place_meeting(x, y, Object20))
+	{
+		state = states.button
+	}
 }
 

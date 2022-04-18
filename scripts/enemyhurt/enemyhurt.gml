@@ -31,10 +31,4 @@ function enemydeath()
 {
 	instance_destroy(other)
 	global.points += 200
-	
-	if (random_range(0,10)>4)
-	
-	{
-		instance_create_layer(other.x, other.y, "Instances", oCoin)
-	}
 }

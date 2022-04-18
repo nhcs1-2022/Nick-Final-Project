@@ -21,7 +21,7 @@ xVector = xSpeed * xDirection;
 
 //gravity
 grv = .2;
-jumpforce = -5;
+jumpforce = -10;
 
 yVector = 0;
 
@@ -30,6 +30,7 @@ marker2 = 0
 marker3 = 0
 marker4 = 0
 marker5 = 0
+//object24 = 0
 
 wall1 = 0
 
@@ -37,13 +38,17 @@ enum states
 {
 	walking,
 	jumping,
+	button,
 }
 
 state_array[states.walking] = playerstatewalking;
 state_array[states.jumping] = playerstatejumping;
+state_array[states.button] = playerstatebutton;
 
 sprite_array[states.walking] = sPlayerwalking;
 sprite_array[states.jumping] = sPlayerjumping;
+sprite_array[states.button] = sPlayerbutton;
 
 
 state = states.walking;
+
