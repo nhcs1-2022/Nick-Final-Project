@@ -12,4 +12,9 @@ if(y>= room_height)
 }
 
 
+if (reload)
+{
+	playerdeath()	
+}
+
 

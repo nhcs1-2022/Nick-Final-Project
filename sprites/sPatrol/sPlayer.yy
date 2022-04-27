@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 31,
-  "bbox_top": 4,
+  "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sEnemy/sEnemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sEnemy/sEnemy.yy",},"LayerId":{"name":"5738c9c7-0bbb-4a53-867f-1157b251674b","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sPlayer/sPlayer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sPlayer/sPlayer.yy",},"LayerId":{"name":"5738c9c7-0bbb-4a53-867f-1157b251674b","path":"sprites/sPlayer/sPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"resourceVersion":"1.0","name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},
+    "spriteId": {"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7a29e431-6b62-44da-ad0f-71a7843c2d8c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"eec6aa79-84dd-4eb1-9ad1-123aea7d4f10","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"649d4d6c-c735-4cde-99a6-0be1a0ae50a9","path":"sprites/sPlayer/sPlayer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},
-    "resourceVersion": "1.4",
-    "name": "sEnemy",
+    "parent": {"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},
+    "resourceVersion": "1.3",
+    "name": "sPlayer",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sEnemy",
+  "name": "sPlayer",
   "tags": [],
   "resourceType": "GMSprite",
 }
