@@ -5,8 +5,7 @@
 
 canJump = true;
 //global (purple) variables are global.whatever
-global.coins = 0
-global.points = 0
+//global.coins = 0
 
 hp = 5;
 iframes = false;
