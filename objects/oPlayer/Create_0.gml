@@ -35,19 +35,25 @@ wall1 = 0
 
 enum states
 {
+	shield,
 	walking,
 	jumping,
 	button,
 }
 
+state_array[states.shield] = playerstatewalking;
 state_array[states.walking] = playerstatewalking;
 state_array[states.jumping] = playerstatejumping;
 state_array[states.button] = playerstatebutton;
 
+sprite_array[states.shield] = sPlayershield;
 sprite_array[states.walking] = sPlayerwalking;
 sprite_array[states.jumping] = sPlayerjumping;
 sprite_array[states.button] = sPlayerbutton;
 
 
 state = states.walking;
+
+
+heartsvalue = 4
 
